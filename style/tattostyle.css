@@ -1,0 +1,52 @@
+body{
+    background-color: red;
+    padding: 0px;
+    margin: 0px
+}
+
+
+header{
+    background-color: #082734;
+    height: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right ;
+}
+
+header ul, li{
+    display:inline-block;
+    color: whitesmoke;
+    margin-right: 10px;
+}
+header li:hover{
+    font-weight: 900;
+    color: #d7a14d
+
+}
+
+
+main{
+    height: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    background-color: grey;
+    width: 90vw;
+    height: 35vw;
+    margin-top: 50px;
+    border-radius: 10px
+
+}
+
+img{
+    width: 20%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
