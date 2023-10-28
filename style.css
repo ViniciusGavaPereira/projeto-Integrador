@@ -9,8 +9,11 @@ header{
     height: 5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right ;
+}
 
-
+div{
+    padding: 0px;
+    margin: 0px
 }
 
 header ul, li{
@@ -19,7 +22,15 @@ header ul, li{
     margin-right: 10px;
 }
 
-h1{
+
+header li:hover{
+    font-weight: 900;
+    color: #d7a14d
+
+}
+
+
+h1,p{
     padding:0px;
     margin: 0px;
     color: whitesmoke
@@ -43,22 +54,51 @@ h1{
 
 }
 
+.tatto-icon{
+
+    background-color:blue;
+    width: 22vw;
+    height: 28vw;
+    border-radius: 25px;
+    margin: 5vw
+}
+
 .quemSomos{
     background-color: purple;
     height: 35vw;
+    display: flex;
+    align-items: center;
+    
 }
 
+.quemSomos h1{
+    color: #648381;
+    margin: 100px;
+
+}
+
+
+.texto{
+    background-color: rgb(13, 41, 52,0.80);
+    width: 35%;
+    height: 80%;
+    margin-left: 35px;
+    border-radius: 25px
+
+}
+
+.texto p{
+    margin: 20px
+}
+
+.texto b{
+    color:#f4b251
+}
 .tatuadores{
     background-color: yellow;
     height: 35vw;
 
 }
 
-.tatto-icon{
 
-    background-color:blue;
-    width: 20vw;
-    height: 28vw;
-    border-radius: 25px;
-    margin: 8vw
-}
+
