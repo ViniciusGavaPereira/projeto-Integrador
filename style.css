@@ -41,7 +41,18 @@ h1,p{
 .titulo{
     background-color:bisque;
     height: 35vw;
-    
+    background-image: url("./img/tatto-fundo.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.titulo img{
+    width: 60%
 }
 
 .imagens{
@@ -68,13 +79,12 @@ h1,p{
     height: 35vw;
     display: flex;
     align-items: center;
-    
 }
 
 .quemSomos h1{
+    font-size: 90px;
     color: #648381;
-    margin: 100px;
-
+    
 }
 
 
@@ -97,8 +107,18 @@ h1,p{
 .tatuadores{
     background-color: yellow;
     height: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 
 }
 
 
-
+.tatuadores-icon{
+    background-color:blue;
+    width: 22vw;
+    height: 28vw;
+    border-radius: 25px;
+    margin: 5vw
+}
