@@ -36,6 +36,11 @@ h1,p{
     color: whitesmoke
 }
 
+a{
+    color: inherit;
+    text-decoration: inherit
+}
+
 
 
 .titulo{

@@ -17,12 +17,17 @@ header ul, li{
     color: whitesmoke;
     margin-right: 10px;
 }
+
 header li:hover{
     font-weight: 900;
     color: #d7a14d
 
 }
 
+a{
+    color: inherit;
+    text-decoration: inherit
+}
 
 main{
     height: 35vw;
