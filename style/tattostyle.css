@@ -16,6 +16,7 @@ header ul, li{
     display:inline-block;
     color: whitesmoke;
     margin-right: 10px;
+    font-size: 1.5vw;
 }
 
 header li:hover{

@@ -19,6 +19,7 @@ header ul, li{
     display:inline-block;
     color: whitesmoke;
     margin-right: 10px;
+    font-size: 1.5vw;
 }
 
 
@@ -85,7 +86,7 @@ a{
 }
 
 .quemSomos h1{
-    font-size: 90px;
+    font-size: 9vw;
     color: #648381;
     
 }
@@ -124,4 +125,28 @@ a{
     height: 28vw;
     border-radius: 25px;
     margin: 5vw
+}
+
+
+.maps{
+    background-color:#082734;
+    height: 35vw;
+    display:block;
+    text-align:center; 
+
+}
+
+.maps h1{
+    color: #d7a14d;
+    padding-top: 30px;
+
+}
+
+iframe{
+    width: 70%;
+    height: 70%;
+    box-shadow: 1px 2px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
 }
