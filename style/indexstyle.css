@@ -1,5 +1,4 @@
 body{
-    background-color: red;
     padding: 0px;
     margin: 0px
 }
@@ -44,9 +43,8 @@ a{
 
 
 .titulo{
-    background-color:bisque;
     height: 35vw;
-    background-image: url("./img/tatto-fundo.png");
+    background-image: url("../img/tatto-fundo.png");
     background-repeat: repeat-y;
     background-size: cover;
     display: flex;
@@ -61,7 +59,7 @@ a{
 }
 
 .imagens{
-    background-color: aqua;
+    background-color:#082734;
     height: 35vw;
     display:flex;
     flex-direction: row;
@@ -80,7 +78,7 @@ a{
 }
 
 .quemSomos{
-    background-color: purple;
+    background-color:#082734;
     height: 35vw;
     display: flex;
     align-items: center;
@@ -110,7 +108,7 @@ a{
     color:#f4b251
 }
 .tatuadores{
-    background-color: yellow;
+    background-color:#082734;
     height: 35vw;
     display:flex;
     flex-direction: row;
