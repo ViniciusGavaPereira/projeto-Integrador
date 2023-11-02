@@ -1,6 +1,8 @@
 body{
     padding: 0px;
-    margin: 0px
+    margin: 0px;
+    background-color: #082734;
+
 }
 
 header{
@@ -88,13 +90,14 @@ a{
 .quemSomos h1{
     font-size: 9vw;
     color: #648381;
+    margin-left: 5vw
     
 }
 
 
 .texto{
-    background-color: rgb(13, 41, 52,0.80);
-    width: 35%;
+    background-color: #648381;
+    width: 50%;
     height: 80%;
     margin-left: 35px;
     border-radius: 25px
@@ -102,7 +105,7 @@ a{
 }
 
 .texto p{
-    margin: 20px
+    margin: 2vw
 }
 
 .texto b{
@@ -143,9 +146,9 @@ a{
 }
 
 iframe{
-    width: 70%;
-    height: 70%;
-    box-shadow: 1px 2px grey;
+    width: 60vw;
+    height: 25vw;
+    box-shadow: 3px 3px #d7a14d;
     justify-content: center;
     align-items: center;
     margin-top: 3vw;
